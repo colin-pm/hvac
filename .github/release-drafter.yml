@@ -25,3 +25,15 @@ change-template: '- $TITLE. GH-$NUMBER'
 template: |
 
   $CHANGES
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
